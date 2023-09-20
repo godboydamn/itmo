@@ -1,0 +1,3 @@
+javac Main.java
+
+jar cvmf MANIFEST.MF lab1.jar Main.class
