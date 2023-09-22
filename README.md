@@ -7,4 +7,4 @@
 * [Информатика](informatics/)
 
 
-`Вдохновлён [Максом Барсуковым](https://github.com/maxbarsukov) и его [репозиторием](https://github.com/maxbarsukov/itmo)`
+`Вдохновлён` [Максом Барсуковым](https://github.com/maxbarsukov) `и его` [репозиторием](https://github.com/maxbarsukov/itmo)`
