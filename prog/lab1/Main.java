@@ -38,9 +38,6 @@ public class Main {
         
         for (int i=0;i<7;i++){
             for (int j=0;j<17;j++){
-                if (Double.isNaN(s[i][j]))
-                    System.out.printf("%2.2s","^_^");
-                else
                 System.out.printf("%2.2f",s[i][j]);
                 System.out.print(" ");
             }
