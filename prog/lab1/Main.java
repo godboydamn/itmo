@@ -1,3 +1,4 @@
+import static java.lang.Math.*;
 import java.util.Random;
 
 public class Main {
@@ -23,13 +24,13 @@ public class Main {
             for (int j=0;j<17;j++){
                 switch (c[i]){
                     case 3,5,7,17:
-                        s[i][j] = Math.tan(Math.atan(Math.pow(((x[j]-5.5)/17), 2)));
+                        s[i][j] = tan(atan(pow(((x[j]-5.5)/17), 2)));
                         break;
                     case 11:
-                        s[i][j] = Math.pow((Math.asin(1/Math.exp(Math.abs(x[j])))*(Math.pow(Math.atan((x[j]-5.5)/17),1/3 ))),Math.pow(Math.pow(x[j],x[j]/2),1/3));
+                        s[i][j] = pow((asin(1/exp(abs(x[j])))*(pow(atan((x[j]-5.5)/17),1/3 ))),pow(pow(x[j],x[j]/2),1/3));
                     break;
                     default:
-                        s[i][j] = (3/4)/(4+Math.cos(Math.pow(1/4+(x[j]-1)/x[j],2)));
+                        s[i][j] = (3/4)/(4+cos(pow(1/4+(x[j]-1)/x[j],2)));
                         
                 }
             }
