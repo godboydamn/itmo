@@ -1,21 +1,16 @@
 #4
 import re
 
-pattern = r'\b(?:[01]\d|2[0-3]):[0-5]\d(?::[0-5]\d)?\b'
-
-text = input("Введите текст: ")
-
-# Используем функцию findall для нахождения всех времен в тексте
-times = re.findall(pattern, text)
-
-for time in times:
-    # Разбиваем время на часы, минуты и (опционально) секунды
-    components = list(map(int, time.split(':')))
+def replace_time_with_tbd(text):
+    time_pattern = r'\b\d{2}:\d{2}(:\d{2})?\b'
     
-    # Проверяем, что часы не превышают 23
-    if components[0] <= 23:
-        text = text.replace(time, '(TBD)')
+    result = re.sub(time_pattern, "(TBD)", text)
+    
+    return result
 
-print(text)
+post_content = "Занятие будет проходить с 10:30 до 12:00:30. Приходите вовремя!"
+updated_post_content = replace_time_with_tbd(post_content)
+
+print(updated_post_content)
 
 
