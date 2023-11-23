@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Wednesday>
+		<item>
+			<time>8:20-9:50</time>
+			<group>Прогр 4</group>
+			<room>1216/0 (УСЛ) АУД.</room>
+			<lesson>ПРОГРАММИРОВАНИЕ (ЛЕК) : АКТОВЫЙ ЗАЛ</lesson>
+			<lesson-format>Очно-дистанционный</lesson-format>
+		</item>
+		<item>
+			<time>8:20-9:50</time>
+			<group>Прогр 3</group>
+			<room>1216/0 (УСЛ) АУД.</room>
+			<lesson>ПРОГРАММИРОВАНИЕ (ЛЕК) : АКТОВЫЙ ЗАЛ</lesson>
+			<lesson-format>Очно-дистанционный</lesson-format>
+		</item>
+		<item>
+			<time>8:20-9:50</time>
+			<group>Програм. 15</group>
+			<room>1216/0 (УСЛ) АУД.</room>
+			<lesson>ПРОГРАММИРОВАНИЕ (ЛЕК) : АКТОВЫЙ ЗАЛ</lesson>
+			<lesson-format>Очно-дистанционный</lesson-format>
+		</item>
+		<item>
+			<time>10:00-11:30</time>
+			<group>Прогр. 1</group>
+			<room>1216/0 (УСЛ) АУД.</room>
+			<lesson>ПРОГРАММИРОВАНИЕ (ЛЕК) : АКТОВЫЙ ЗАЛ</lesson>
+			<lesson-format>Очно-дистанционный</lesson-format>
+		</item>
+		<item>
+			<time>10:00-11:30</time>
+			<group>Прогр. 2</group>
+			<room>1216/0 (УСЛ) АУД.</room>
+			<lesson>ПРОГРАММИРОВАНИЕ (ЛЕК) : АКТОВЫЙ ЗАЛ</lesson>
+			<lesson-format>Очно-дистанционный</lesson-format>
+		</item>
+		<item>
+			<time>11:40-13:10</time>
+			<group>Програм. 15.1</group>
+			<room>2435/7 АУД.</room>
+			<lesson>ПРОГРАММИРОВАНИЕ (ЛАБ)</lesson>
+			<lesson-format>Очно-дистанционный</lesson-format>
+		</item>
+		<item>
+			<time>13:30-15:00</time>
+			<group>Програм. 15.1</group>
+			<room>2435/7 АУД.</room>
+			<lesson>ПРОГРАММИРОВАНИЕ (ЛАБ)</lesson>
+			<lesson-format>Очно-дистанционный</lesson-format>
+		</item>
+	</Wednesday>
+</root>

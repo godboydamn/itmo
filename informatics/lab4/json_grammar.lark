@@ -1,0 +1,23 @@
+json: object
+
+object: "{" [pair ("," pair)*] "}"
+
+pair: string ":" value
+
+array: "[" [value ("," value)*] "]"
+
+value: object
+     | array
+     | string
+     | SIGNED_INT       -> number
+     | "true"           -> true
+     | "false"          -> false
+     | "null"           -> null
+
+string: ESCAPED_STRING
+
+%import common.ESCAPED_STRING
+%import common.SIGNED_INT
+%import common.WS
+%ignore WS
+
