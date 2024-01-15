@@ -1,6 +1,7 @@
 package interfaces;
 
+import ScentTypes.ScentTypes;
+
 public interface Scented {
-    String getScent();
-    void setScent(String scent);
+    ScentTypes getScentType();
 }

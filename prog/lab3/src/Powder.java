@@ -1,9 +1,8 @@
 import ScentTypes.ScentTypes;
+public class Powder extends HygieneItem {
+    private int uniqueField;
 
-public class Soap extends HygieneItem {
-    private String uniqueField;
-
-    public Soap(String name, String owner, ScentTypes scentType, String uniqueField) {
+    public Powder(String name, String owner, ScentTypes scentType, int uniqueField) {
         super(name, owner, scentType);
         this.uniqueField = uniqueField;
     }
@@ -11,7 +10,7 @@ public class Soap extends HygieneItem {
     @Override
     public int hashCode() {
         int result = super.hashCode();
-        result = 31 * result + (uniqueField != null ? uniqueField.hashCode() : 0);
+        result = 31 * result + uniqueField;
         return result;
     }
 
@@ -20,18 +19,20 @@ public class Soap extends HygieneItem {
         if (this == object) {
             return true;
         }
-        if (!(object instanceof Soap)) {
+        if (!(object instanceof Powder)) {
             return false;
         }
         if (!super.equals(object)) {
             return false;
         }
-        Soap soap = (Soap) object;
-        return uniqueField != null ? uniqueField.equals(soap.uniqueField) : soap.uniqueField == null;
+        Powder powder = (Powder) object;
+        return uniqueField == powder.uniqueField;
     }
 
     @Override
     public String toString() {
-        return "Soap{" + "uniqueField='" + uniqueField + '\'' + "} " + super.toString();
+        return "Powder{" +
+                "uniqueField=" + uniqueField +
+                "} " + super.toString();
     }
 }
