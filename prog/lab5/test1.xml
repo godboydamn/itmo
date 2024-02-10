@@ -1,0 +1,45 @@
+<labWorks>
+    <labWork>
+        <id>1</id>
+        <name>Lab 1</name>
+        <coordinates>
+            <x>10.0</x>
+            <y>20.0</y>
+        </coordinates>
+        <creationDate>2024-02-09T10:00:00Z</creationDate>
+        <minimalPoint>5.0</minimalPoint>
+        <personalQualitiesMinimum>4.0</personalQualitiesMinimum>
+        <description>This is the first lab work</description>
+        <difficulty>HARD</difficulty>
+        <discipline>Physics</discipline>
+    </labWork>
+    <labWork>
+        <id>2</id>
+        <name>Lab 2</name>
+        <coordinates>
+            <x>15.0</x>
+            <y>25.0</y>
+        </coordinates>
+        <creationDate>2024-02-10T11:00:00Z</creationDate>
+        <minimalPoint>6.0</minimalPoint>
+        <personalQualitiesMinimum>4.5</personalQualitiesMinimum>
+        <description>This is the second lab work</description>
+        <difficulty>HOPELESS</difficulty>
+        <discipline>Chemistry</discipline>
+    </labWork>
+    <labWork>
+        <id>3</id>
+        <name>Lab 3</name>
+        <coordinates>
+            <x>20.0</x>
+            <y>30.0</y>
+        </coordinates>
+        <creationDate>2024-02-11T12:00:00Z</creationDate>
+        <minimalPoint>7.0</minimalPoint>
+        <personalQualitiesMinimum>5.0</personalQualitiesMinimum>
+        <description>This is the third lab work</description>
+        <difficulty>VERY_EASY</difficulty>
+        <discipline>Biology</discipline>
+    </labWork>
+</labWorks>
+
